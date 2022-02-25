@@ -65,9 +65,6 @@ if __name__ == '__main__':
         if "wish me" in query:
             wishMe()
 
-        elif 'pubg or free fire' in query:
-            speak("Pubg is proo game, and free fire is noob game")
-
         elif ('sister name' in query):
             speak("Searching for your sister...")
             speak("Your sister name is seethalakshmi")
