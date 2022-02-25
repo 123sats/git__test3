@@ -1,4 +1,4 @@
-[1:59 pm, 20/02/2022] Mihir Narkar: import pyttsx3
+ import pyttsx3
 import datetime
 import speech_recognition as sr
 import wikipedia
@@ -46,7 +46,7 @@ def takeCommand():
         return "None"
     return query
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     wishMe()
     while True:
         query = takeCommand().lower()
@@ -70,23 +70,23 @@ if _name_ == '_main_':
 
         elif ('sister name' in query):
             speak("Searching for your sister...")
-            speak("Your sister name is Riya rajendra pangam")
+            speak("Your sister name is seethalakshmi")
 
         elif('sister live' in query):
-            speak("Your sister,called as riya lived in Virar next to nalasopara")
+            speak("Your sister,called as seetha lived in vashi")
             
         elif('riya mobile health' in query):
-            speak("No too good,  riyaa please replace mobile as soon as possible")
+            speak("No too good,  seetha  please replace mobile as soon as possible")
 
         elif ('my name' in query):
-            speak("Your name is Mihir chandrakant Narkar, you build me, you are my god")
+            speak("Your name is satish,you build me, you are my god")
 
         elif 'quit' in query:
             speak("Thanks for your time sir, good bye")
             exit()
 
         elif ('your name' in query):
-            speak("My name is jarvis, i am a intelligent robot ,made by mihir narkar")
+            speak("My name is jarvis, i am a intelligent robot ,made by satish")
 
         elif ('open youtube' in query):
             speak("Opening youtube")
