@@ -60,7 +60,7 @@ if __name__ == '__main__':
             speak(results)
 
         if "my age" in query:
-            speak("You are 20 years old boy looking for girl")
+            speak("")
 
         if "wish me" in query:
             wishMe()
@@ -75,11 +75,11 @@ if __name__ == '__main__':
         elif('sister live' in query):
             speak("Your sister,called as seetha lived in vashi")
             
-        elif('riya mobile health' in query):
+        elif('seetha  mobile health' in query):
             speak("No too good,  seetha  please replace mobile as soon as possible")
 
         elif ('my name' in query):
-            speak("Your name is satish,you build me, you are my god")
+            speak("Your name is satish,you build me")
 
         elif 'quit' in query:
             speak("Thanks for your time sir, good bye")
